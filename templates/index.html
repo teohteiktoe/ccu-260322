@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>Predicting Credit Card Upgrade</h1>
+        <form action="/" method="post">
+            <p>Please enter the number of purchases per month</p>
+            <p><input type="number" name="purchases"></p>
+            <p>Please enter 1 if there is supplementary card, else 0</p>
+            <p><input type="number" name="suppcard"></p>
+            <p><input type="submit" value="Enter"></p>
+        </form>
+        <p>CART: {{result1}}</p>
+        <p>Random Forest: {{result2}}</p>
+        <p>XGBoost: {{result3}}</p>
+    </body>
+</html>
